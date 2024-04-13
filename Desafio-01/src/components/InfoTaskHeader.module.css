@@ -1,0 +1,35 @@
+.infoHeaderTasks{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 46rem;
+}
+.createCounterTask{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+ 
+}
+
+.doneCounterTask{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.counter{
+  display: flex;
+  padding: 0.125rem 0.5rem;
+  border-radius: 62rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+
+}
